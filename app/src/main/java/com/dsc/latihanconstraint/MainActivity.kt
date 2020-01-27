@@ -16,9 +16,9 @@ class MainActivity : AppCompatActivity() {
             val username: String = edtUsername.text.toString()
             val password: String = edtPassword.text.toString()
             
-            if (username == "lukman" && password == "123"){
+            if (username == "test" && password == "test"){
                 Toast.makeText(this,"YEAYYYY",Toast.LENGTH_SHORT).show()
-            } else if (username == "lukman" && password != "123"){
+            } else if (username == "test" && password != "test"){
                 Toast.makeText(this,"Salah Password!",Toast.LENGTH_SHORT).show()
             } else {
                 Toast.makeText(this,"Salah keduanya cuy!",Toast.LENGTH_SHORT).show()
