@@ -27,6 +27,7 @@ import static androidx.test.espresso.matcher.ViewMatchers.withText;
 @LargeTest
 public class LoginTest {
 
+
     @Rule
     public ActivityScenarioRule<MainActivity> activityScenarioRule
             = new ActivityScenarioRule<>(MainActivity.class);
